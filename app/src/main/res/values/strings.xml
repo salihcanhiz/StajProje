@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Proje</string>
+    <string name="muze">Muze</string>
+    <string name="s_k_a_sorulan_sorular">Sıkça Sorulan Sorular</string>
+    <string name="SSS">sss</string>
+    <string name="sss">SSS</string>
+    <string name="iletisim">Iletişim</string>
+    <string name="support">s</string>
+    <string name="Support">support</string>
+    <string name="Destek">support</string>
+    <string name="ssss">SSS</string>
+    <string name="leti_im">İletişim</string>
+    <string name="destek">Destek</string>
+    <string name="muzeler">Muzeler</string>
+    <string name="navigasyon">Navigasyon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

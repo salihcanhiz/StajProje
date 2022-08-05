@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuMuze">
+
+    <fragment
+        android:id="@+id/menuMuze"
+        android:name="com.softtech.proje.MuzelerFragment"
+        android:label="fragment_muzeler"
+        tools:layout="@layout/fragment_muzeler" />
+    <fragment
+        android:id="@+id/menuIletisim"
+        android:name="com.softtech.proje.IletisimFragment"
+        android:label="fragment_iletisim"
+        tools:layout="@layout/fragment_iletisim" />
+    <fragment
+        android:id="@+id/menuSSS"
+        android:name="com.softtech.proje.SssFragment"
+        android:label="fragment_sss"
+        tools:layout="@layout/fragment_sss" />
+    <fragment
+        android:id="@+id/menuNav"
+        android:name="com.softtech.proje.navigationFragment"
+        android:label="fragment_navigation"
+        tools:layout="@layout/fragment_navigation" />
+    <fragment
+        android:id="@+id/menuSupport"
+        android:name="com.softtech.proje.supportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <activity
+        android:id="@+id/muzeler"
+        android:name="com.softtech.proje.Muzeler"
+        android:label="activity_muzeler"
+        tools:layout="@layout/activity_muzeler" />
+</navigation>

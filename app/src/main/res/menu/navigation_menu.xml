@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuMuze"
+        android:icon="@drawable/muze"
+    android:title="@string/muzeler" />
+    <item android:id="@+id/menuNav"
+        android:icon="@drawable/navigasyon"
+        android:title="@string/navigasyon" />
+    <item android:id="@+id/menuIletisim"
+        android:icon="@drawable/iletisim"
+        android:title="@string/leti_im" />
+    <item android:id="@+id/menuSupport"
+        android:icon="@drawable/support"
+        android:title="@string/destek" />
+    <item android:id="@+id/menuSSS"
+        android:icon="@drawable/ic_sorular"
+        android:title="@string/ssss" />
+
+
+
+
+</menu>
